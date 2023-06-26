@@ -1,6 +1,1 @@
-Given a string p of length m and a string x of length n ,  Using Rabin Karp Algorithm  found  all occurrences of p in x
-(Assume m ≤ n) 
-Time complexity=O(m+n)
-Space complexity=O(log n + log q)
-The algorithm does report false positives with a tiny probability ε.
-For more details refer to the attached pdf
+ Given a string p  with wildcards (characters that don't have to match)  of length m and a string x with wildcards (characters that don't have to match) of length n , Using Rabin Karp Algorithm found all occurrences of p in x (Assume m ≤ n) Time complexity=O(m+n) .The algorithm does report false positives with a tiny probability ε. A supplementary function was created to measure the upper bound of false positives, ensuring accurate results.
